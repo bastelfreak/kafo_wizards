@@ -13,6 +13,6 @@ concurrency:
 jobs:
   test:
     name: Tests
-    uses: theforeman/actions/.github/workflows/test-gem.yml@v0
+    uses: theforeman/actions/.github/workflows/test-gem.yml@v1
     with:
       command: bundle exec rake test
